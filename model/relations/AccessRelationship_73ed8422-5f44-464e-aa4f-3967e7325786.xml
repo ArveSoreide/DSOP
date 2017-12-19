@@ -1,0 +1,13 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="eOppslag"
+    id="73ed8422-5f44-464e-aa4f-3967e7325786"
+    accessType="1">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_339bcff3-8528-4693-9fec-8585d71e56b6.xml#339bcff3-8528-4693-9fec-8585d71e56b6"/>
+  <target
+      xsi:type="archimate:DataObject"
+      href="DataObject_a545b729-a6b6-43ee-9c69-643effab4aa8.xml#a545b729-a6b6-43ee-9c69-643effab4aa8"/>
+</archimate:AccessRelationship>
