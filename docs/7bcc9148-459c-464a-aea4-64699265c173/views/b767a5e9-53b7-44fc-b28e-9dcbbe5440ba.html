@@ -19,37 +19,50 @@
 
 <body>
 	<div class="panel panel-default root-panel">
-		<div class="panel-heading root-panel-heading">
-			<b>M&#229;l for Digital Agenda</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
-		</div>
-		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/b767a5e9-53b7-44fc-b28e-9dcbbe5440ba.png" alt="Mål for Digital Agenda" usemap="#b767a5e9-53b7-44fc-b28e-9dcbbe5440bamap">
-			<map name="b767a5e9-53b7-44fc-b28e-9dcbbe5440bamap">
-						<area shape="rect" coords="272,214,443,287" href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html"  target="element">
-						<area shape="rect" coords="476,118,647,191" href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html"  target="element">
-						<area shape="rect" coords="380,10,551,83" href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html"  target="element">
-						<area shape="rect" coords="164,10,335,83" href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html"  target="element">
-						<area shape="rect" coords="66,118,237,191" href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html"  target="element">
-						<area shape="rect" coords="476,370,647,443" href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html"  target="element">
-						<area shape="rect" coords="272,370,443,443" href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html"  target="element">
-						<area shape="rect" coords="66,370,237,443" href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html"  target="element">
 
-			</map>
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>M&#229;l for Digital Agenda</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/b767a5e9-53b7-44fc-b28e-9dcbbe5440ba.png" alt="Mål for Digital Agenda" usemap="#b767a5e9-53b7-44fc-b28e-9dcbbe5440bamap"/>
+			   <map name="b767a5e9-53b7-44fc-b28e-9dcbbe5440bamap">
+				  		<area shape="rect" coords="66,370,237,443" href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html"  target="element">
+				  		<area shape="rect" coords="272,370,443,443" href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html"  target="element">
+				  		<area shape="rect" coords="476,370,647,443" href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html"  target="element">
+				  		<area shape="rect" coords="66,118,237,191" href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html"  target="element">
+				  		<area shape="rect" coords="164,10,335,83" href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html"  target="element">
+				  		<area shape="rect" coords="380,10,551,83" href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html"  target="element">
+				  		<area shape="rect" coords="476,118,647,191" href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html"  target="element">
+				  		<area shape="rect" coords="272,214,443,287" href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html"  target="element">
+
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none"></textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -63,27 +76,150 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-										<tr><td> <a href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html" target="element"> IKT er en vesentlig innsatsfaktor for innovasjon og produktivitet  </a> </td><td class="i18n-elementtype-Assessment"></td></tr>
-										<tr><td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element"> Styrket digital kompetanse og deltakelse  </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-										<tr><td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td><td class="i18n-elementtype-Goal"></td></tr>
-										<tr><td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td><td class="i18n-elementtype-Requirement"></td></tr>
-										<tr><td> <a href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html" target="element"> Brukere skal v&#230;re utgangspunktet </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-										<tr><td> <a href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html" target="element"> Offentlige tjenester skal oppleves sammenhengende og helhetlige </a> </td><td class="i18n-elementtype-Principle"></td></tr>
-										<tr><td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element"> Forvaltningen skal gjenbruke informasjon (Once Only) </a> </td><td class="i18n-elementtype-Principle"></td></tr>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+											    <td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+											</tr>
 
-							</tbody>
-						</table>
-					</div>
+											<tr>
+											    <td> <a href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html" target="element"> IKT er en vesentlig innsatsfaktor for innovasjon og produktivitet  </a> </td>
+											    <td> <a href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html" target="element" class="i18n-elementtype-Assessment"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element"> Styrket digital kompetanse og deltakelse  </a> </td>
+											    <td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td>
+											    <td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element" class="i18n-elementtype-Goal"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td>
+											    <td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element" class="i18n-elementtype-Requirement"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html" target="element"> Brukere skal v&#230;re utgangspunktet </a> </td>
+											    <td> <a href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html" target="element"> Offentlige tjenester skal oppleves sammenhengende og helhetlige </a> </td>
+											    <td> <a href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element"> Forvaltningen skal gjenbruke informasjon (Once Only) </a> </td>
+											    <td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element" class="i18n-elementtype-Principle"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/46fc323e-ec94-43ee-bae7-679b311ba795.html" target="element">  </a> </td>
+																		<td> <a href="../elements/46fc323e-ec94-43ee-bae7-679b311ba795.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element"> Styrket digital kompetanse og deltakelse  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/bb5c1d46-005e-4767-9052-94672d8b0fa7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/bb5c1d46-005e-4767-9052-94672d8b0fa7.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/915fcfa2-5624-4141-aea2-af9bbbf3cb96.html" target="element">  </a> </td>
+																		<td> <a href="../elements/915fcfa2-5624-4141-aea2-af9bbbf3cb96.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b8284987-a364-4d8a-8fa2-b3e5f195f436.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b8284987-a364-4d8a-8fa2-b3e5f195f436.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/0c482394-3c86-47e7-a1b6-7487208ffdb8.html" target="element"> Brukere skal v&#230;re utgangspunktet </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b5de6464-e048-4fc1-9ecf-e73775560766.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b5de6464-e048-4fc1-9ecf-e73775560766.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/cf01d79f-0cfa-4384-a95d-68f6f34c22df.html" target="element"> Offentlige tjenester skal oppleves sammenhengende og helhetlige </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/7f8d8597-3213-4442-9bcf-26328238bde7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7f8d8597-3213-4442-9bcf-26328238bde7.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/235dda4d-7f99-4846-9c9d-a7fc413d5ed5.html" target="element"> Brukeren i sentrum </a> </td>
+																		<td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element"> Forvaltningen skal gjenbruke informasjon (Once Only) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/9c34aa41-5356-4d8e-b754-cd60b7ac0efc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/9c34aa41-5356-4d8e-b754-cd60b7ac0efc.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html" target="element"> IKT er en vesentlig innsatsfaktor for innovasjon og produktivitet  </a> </td>
+																		<td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element"> Styrket digital kompetanse og deltakelse  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/59e32a7d-e7cd-4349-a8e8-4cfbdc6b4a96.html" target="element">  </a> </td>
+																		<td> <a href="../elements/59e32a7d-e7cd-4349-a8e8-4cfbdc6b4a96.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/4b5cc31c-f120-4d6a-bd43-5f735256d761.html" target="element"> IKT er en vesentlig innsatsfaktor for innovasjon og produktivitet  </a> </td>
+																		<td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/c01c96a6-da24-47ac-918a-12a8e496a711.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c01c96a6-da24-47ac-918a-12a8e496a711.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td>
+																		<td> <a href="../elements/510743a2-7003-4575-bf32-472b9cdc8951.html" target="element"> Styrket digital kompetanse og deltakelse  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2596bf68-1e19-4009-b119-0d17d15bb64e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2596bf68-1e19-4009-b119-0d17d15bb64e.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td>
+																		<td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f82bc32e-c818-4b2f-8906-8e32d23d5f51.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f82bc32e-c818-4b2f-8906-8e32d23d5f51.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/6bc3c7d4-9b1e-40ea-8be9-e3b9172ef14f.html" target="element"> Godt personvern og god informasjonssikkerhet  </a> </td>
+																		<td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element"> Forvaltningen skal gjenbruke informasjon (Once Only) </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/75bd7ef1-086e-46cc-bca2-24fa29c8d058.html" target="element">  </a> </td>
+																		<td> <a href="../elements/75bd7ef1-086e-46cc-bca2-24fa29c8d058.html" target="element" class="i18n-elementtype-InfluenceRelationship"></a> </td>
+																		<td> <a href="../elements/0681d3fb-c629-411e-9845-aaf17b4055ff.html" target="element"> Forvaltningen skal gjenbruke informasjon (Once Only) </a> </td>
+																		<td> <a href="../elements/6314bf91-87cd-4702-a3f0-a53203cbaa0f.html" target="element"> Effektiv digitalisering av offentlig sektor  </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>

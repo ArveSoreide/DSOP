@@ -19,39 +19,52 @@
 
 <body>
 	<div class="panel panel-default root-panel">
+
 		<div class="panel-heading root-panel-heading">
-			<b>Innhenting av saldo og transaksjoner</b>
-			(<span class="i18n-viewpoint-"></span>)
-			<a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Name -->
+               <b>Innhenting av saldo og transaksjoner</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
 		</div>
+
 		<div class="panel-body root-panel-body">
-			<img class="diagram" src="../images/b1f2cdd0-46a2-410d-954c-83424e0a6542.png" alt="Innhenting av saldo og transaksjoner" usemap="#b1f2cdd0-46a2-410d-954c-83424e0a6542map">
-			<map name="b1f2cdd0-46a2-410d-954c-83424e0a6542map">
-								<area shape="rect" coords="430,202,611,257" href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html"  target="element">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/b1f2cdd0-46a2-410d-954c-83424e0a6542.png" alt="Innhenting av saldo og transaksjoner" usemap="#b1f2cdd0-46a2-410d-954c-83424e0a6542map"/>
+			   <map name="b1f2cdd0-46a2-410d-954c-83424e0a6542map">
+				  				<area shape="rect" coords="586,94,767,149" href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html"  target="element">
+				  				<area shape="rect" coords="34,94,155,149" href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html"  target="element">
+				  				<area shape="rect" coords="790,94,911,149" href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html"  target="element">
+				  				<area shape="rect" coords="382,94,563,149" href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html"  target="element">
+				  				<area shape="rect" coords="178,94,359,149" href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html"  target="element">
 
-						<area shape="rect" coords="10,178,933,287" href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html"  target="element">
-								<area shape="rect" coords="178,94,359,149" href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html"  target="element">
-								<area shape="rect" coords="382,94,563,149" href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html"  target="element">
-								<area shape="rect" coords="790,94,911,149" href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html"  target="element">
-								<area shape="rect" coords="34,94,155,149" href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html"  target="element">
-								<area shape="rect" coords="586,94,767,149" href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html"  target="element">
+				  		<area shape="rect" coords="10,10,933,167" href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html"  target="element">
+				  				<area shape="rect" coords="430,202,611,257" href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html"  target="element">
 
-						<area shape="rect" coords="10,10,933,167" href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html"  target="element">
+				  		<area shape="rect" coords="10,178,933,287" href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html"  target="element">
 
-			</map>
+			   </map>
+
 			<div role="tabpanel">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
-					<li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
-					<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
 				</ul>
 
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<textarea id="docsrc" style="display:none"></textarea>
-						<div id="doctgt" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
@@ -65,29 +78,157 @@
 							</tbody>
 						</table>
 					</div>
-					<div role="tabpanel" class="tab-pane" id="elements">
-						<table class="table table-striped table-hover table-condensed">
-							<thead>
-								<tr>
-									<th class="i18n-name"></th>
-									<th class="i18n-type"></th>
-								</tr>
-							</thead>
-							<tbody>
-										<tr><td> <a href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html" target="element"> Bank A </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-												<tr><td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element"> Utlevering av konto- og transaksjonsopplysninger </a> </td><td class="i18n-elementtype-BusinessService"></td></tr>
-										
-										<tr><td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td><td class="i18n-elementtype-BusinessRole"></td></tr>
-												<tr><td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element"> Behov saldo og transaksjonsopplysninger </a> </td><td class="i18n-elementtype-BusinessEvent"></td></tr>
-												<tr><td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element"> Rette foresp&#248;rsel om saldo og transaksjonsopplysninger </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html" target="element"> Vurdere videre saksgang </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html" target="element"> Kontroll av skattemelding </a> </td><td class="i18n-elementtype-BusinessProcess"></td></tr>
-												<tr><td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td><td class="i18n-elementtype-BusinessEvent"></td></tr>
-										
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html" target="element"> Bank A </a> </td>
+											    <td> <a href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
 
-							</tbody>
-						</table>
-					</div>
+													<tr>
+													    <td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element"> Utlevering av konto- og transaksjonsopplysninger </a> </td>
+													    <td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element" class="i18n-elementtype-BusinessService"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+											    <td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element" class="i18n-elementtype-BusinessRole"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element"> Behov saldo og transaksjonsopplysninger </a> </td>
+													    <td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element" class="i18n-elementtype-BusinessEvent"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element"> Rette foresp&#248;rsel om saldo og transaksjonsopplysninger </a> </td>
+													    <td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html" target="element"> Vurdere videre saksgang </a> </td>
+													    <td> <a href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html" target="element"> Kontroll av skattemelding </a> </td>
+													    <td> <a href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html" target="element" class="i18n-elementtype-BusinessProcess"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td>
+													    <td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element" class="i18n-elementtype-BusinessEvent"> </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/5110c70a-632a-4672-9f87-d3b28243a6c8.html" target="element">  </a> </td>
+																		<td> <a href="../elements/5110c70a-632a-4672-9f87-d3b28243a6c8.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/16553d34-be82-4c14-ba15-3a83dfae592b.html" target="element"> Bank A </a> </td>
+																		<td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element"> Utlevering av konto- og transaksjonsopplysninger </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/2d95e4fa-4c66-4bb2-a962-eb3f3c02e93c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/2d95e4fa-4c66-4bb2-a962-eb3f3c02e93c.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element"> Utlevering av konto- og transaksjonsopplysninger </a> </td>
+																				<td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/20525885-db5c-40bf-8af6-cb4003180e36.html" target="element">  </a> </td>
+																		<td> <a href="../elements/20525885-db5c-40bf-8af6-cb4003180e36.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element"> Behov saldo og transaksjonsopplysninger </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/a893e02d-c478-486e-b568-58a9aaadd0fb.html" target="element">  </a> </td>
+																		<td> <a href="../elements/a893e02d-c478-486e-b568-58a9aaadd0fb.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element"> Rette foresp&#248;rsel om saldo og transaksjonsopplysninger </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/ace417eb-3111-4d50-a3e1-b37d4f621caa.html" target="element">  </a> </td>
+																		<td> <a href="../elements/ace417eb-3111-4d50-a3e1-b37d4f621caa.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html" target="element"> Vurdere videre saksgang </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/08670ea4-5acb-4ce4-9684-400973c1a9d3.html" target="element">  </a> </td>
+																		<td> <a href="../elements/08670ea4-5acb-4ce4-9684-400973c1a9d3.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html" target="element"> Kontroll av skattemelding </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/3f9549a0-3fb4-45a1-9df7-7d8344dc300c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/3f9549a0-3fb4-45a1-9df7-7d8344dc300c.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b3366c20-41d2-43fe-b60f-1e4c7a4b2ec1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b3366c20-41d2-43fe-b60f-1e4c7a4b2ec1.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																		<td> <a href="../elements/63ad92eb-42b1-49ba-8750-197f864ab248.html" target="element"> Skatteetaten </a> </td>
+																		<td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/1a742c7f-5223-4d21-985d-b3c4be10e00c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/1a742c7f-5223-4d21-985d-b3c4be10e00c.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element"> Behov saldo og transaksjonsopplysninger </a> </td>
+																				<td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element"> Rette foresp&#248;rsel om saldo og transaksjonsopplysninger </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/a7c80e34-3830-4a33-82f5-7f7c93e33f68.html" target="element">  </a> </td>
+																				<td> <a href="../elements/a7c80e34-3830-4a33-82f5-7f7c93e33f68.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/e460d4ef-a17a-45a4-8e6a-232444dc872e.html" target="element"> Rette foresp&#248;rsel om saldo og transaksjonsopplysninger </a> </td>
+																				<td> <a href="../elements/b55745fb-fa93-4458-982e-b22c4d4e41d5.html" target="element"> Utlevering av konto- og transaksjonsopplysninger </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/b881b554-0cbb-48d5-9137-3ca2fdd02bb2.html" target="element">  </a> </td>
+																				<td> <a href="../elements/b881b554-0cbb-48d5-9137-3ca2fdd02bb2.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/34f07327-34e4-4a19-b97d-e79feccdfb1e.html" target="element"> Kontroll av skattemelding </a> </td>
+																				<td> <a href="../elements/fac7289f-d5ed-499c-965d-7f26c503ce57.html" target="element"> Behov saldo og transaksjonsopplysninger </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/f3f79726-1f36-4293-af62-ba5083d5bc01.html" target="element">  </a> </td>
+																				<td> <a href="../elements/f3f79726-1f36-4293-af62-ba5083d5bc01.html" target="element" class="i18n-elementtype-TriggeringRelationship"></a> </td>
+																				<td> <a href="../elements/8b68c1a8-47e7-42be-8fce-bc70361373a6.html" target="element"> Konto- og transaksjonsopplysninger mottatt </a> </td>
+																				<td> <a href="../elements/56dae4b1-314a-4c08-8550-79b3e357693e.html" target="element"> Vurdere videre saksgang </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
 			  </div>
 			</div>
 		</div>
