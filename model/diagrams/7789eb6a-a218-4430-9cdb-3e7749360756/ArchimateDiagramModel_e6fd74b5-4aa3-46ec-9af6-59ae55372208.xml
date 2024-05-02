@@ -342,7 +342,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="165f9bbf-4991-403c-89de-6136abf24599">
+      id="165f9bbf-4991-403c-89de-6136abf24599"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="75b8c206-debb-408d-a63a-bac19eb9403c"
@@ -403,7 +404,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="bdf993ff-f6eb-4165-b2f3-8310c7a559ea"
-      targetConnections="75b8c206-debb-408d-a63a-bac19eb9403c ce0b2f99-f6b8-4cbe-9dad-8b7d44bf61e3">
+      targetConnections="75b8c206-debb-408d-a63a-bac19eb9403c ce0b2f99-f6b8-4cbe-9dad-8b7d44bf61e3"
+      type="1">
     <bounds
         x="300"
         y="696"
@@ -415,7 +417,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="1a8ac531-a87e-40c4-b468-3feee6853999">
+      id="1a8ac531-a87e-40c4-b468-3feee6853999"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="ce0b2f99-f6b8-4cbe-9dad-8b7d44bf61e3"
@@ -459,7 +462,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="7220c872-1077-4777-9331-34423944f875">
+      id="7220c872-1077-4777-9331-34423944f875"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="31a832ed-4435-418a-823c-c9f86b352737"
@@ -512,7 +516,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="d4b7f7b2-2f74-46c4-b6ae-6b81cb5f3bed"
-      targetConnections="203a93ed-34fb-4384-a4cf-1490dacbf392 8cde4bd4-8c9b-453c-aba2-48ae577594cf">
+      targetConnections="203a93ed-34fb-4384-a4cf-1490dacbf392 8cde4bd4-8c9b-453c-aba2-48ae577594cf"
+      type="1">
     <bounds
         x="804"
         y="696"
@@ -525,7 +530,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="813d4b9c-1d5a-4d48-8c41-9348196ac63d"
-      targetConnections="c5f08182-65cc-44ab-8242-08a41a0bfbe0 8cbd276e-0ecb-4238-b2f0-0cfaa3217165">
+      targetConnections="c5f08182-65cc-44ab-8242-08a41a0bfbe0 8cbd276e-0ecb-4238-b2f0-0cfaa3217165"
+      type="1">
     <bounds
         x="516"
         y="696"
