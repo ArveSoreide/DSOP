@@ -306,4 +306,17 @@
         xsi:type="archimate:Grouping"
         href="Grouping_id-95a970d18e9b4d5584ad1dce023c7d21.xml#id-95a970d18e9b4d5584ad1dce023c7d21"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f347b63407a847f880a93c0270d74396"
+      textAlignment="1">
+    <bounds
+        x="324"
+        y="24"
+        width="400"
+        height="140"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-3866a18d0a9d4b2399a22331c0674ad4.xml#id-3866a18d0a9d4b2399a22331c0674ad4"/>
+  </children>
 </archimate:ArchimateDiagramModel>
